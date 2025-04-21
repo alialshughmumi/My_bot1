@@ -1,0 +1,16 @@
+
+{
+  "version": 2,
+  "builds": [{
+    "src": "main.py",
+    "use": "@railway/python"
+  }],
+  "env": {
+    "TELEGRAM_TOKEN": {
+      "required": true
+    },
+    "OPENAI_API_KEY": {
+      "required": true
+    }
+  }
+}
