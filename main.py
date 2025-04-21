@@ -1,12 +1,12 @@
-import os
+
 import logging
 import openai
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # تعيين التوكن لمفتاح بوت تيليجرام
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+TELEGRAM_TOKEN = 'YOUR_TELEGRAM_TOKEN'
+OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY'
 
 openai.api_key = OPENAI_API_KEY
 
